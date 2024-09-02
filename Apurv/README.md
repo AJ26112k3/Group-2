@@ -31,9 +31,9 @@ head -n 6 jha.txt | tail -n 5
 
 TASK -2
 # Step 1: Create a file with the first name in a text editor 
- vim saumya.txt &
+ vim apurv.txt &
 # Step 2: Create a file with the last name in a text editor 
-vim pathak.txt &
+vim jha.txt &
 # Step 3: List out processes running in the system
 ps aux
 # Step 4: Identify and kill the process belonging to the first name 
@@ -41,9 +41,9 @@ ps aux | grep 'vim firstname.txt'
 kill <PID>
 
 TASK-3
-1. Create a File Named saumya.txt
+1. Create a File Named apurv.txt
    Command:
-   touch saumya.txt
+   touch apurv.txt
    
 
 2. Ensure That Only You Can Modify the File
